@@ -4,7 +4,7 @@ Title: NestLink an R data package to guide through Engineered Peptide Barcodes
   for In-Depth Analyses of Binding Protein Ensembles
 Authors@R: c(person("Pascal", "Egloff", email = "p.egloff@imm.uzh.ch",
     role = c("ctb","aut"),
-    comment = c(ORCID = "")),
+    comment = c(ORCID = "0000-0001-8948-3704")),
   person("Iwan", "Zimmermann",
     role = "ctb",
     comment = c(ORCID = "0000-0003-3476-4749")),
@@ -29,7 +29,7 @@ Authors@R: c(person("Pascal", "Egloff", email = "p.egloff@imm.uzh.ch",
     comment = c(ORCID = "0000-0001-5756-9773")),
   person("Markus", "Seeger", email = "cp@fgcz.ethz.ch", role = c("ctb"),
     comment = c(ORCID = "0000-0003-1761-8571")))
-Version: 0.99.88
+Version: 0.99.89
 Depends: R (>= 3.6),
   AnnotationHub,
   ExperimentHub (>= 0.99.6),
