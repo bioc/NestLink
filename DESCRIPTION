@@ -3,50 +3,49 @@ Type: Package
 Title: NestLink an R data package to guide through Engineered Peptide Barcodes
   for In-Depth Analyses of Binding Protein Ensembles
 Authors@R: c(person("Pascal", "Egloff",
-    role = c("ctb","aut"),
     email = "p.egloff@imm.uzh.ch",
+    role = c("aut"),
     comment = c(ORCID = "0000-0001-8948-3704")),
   person("Iwan", "Zimmermann",
-    role = "ctb",
     email = "izimmermann@imm.uzh.ch",
     comment = c(ORCID = "0000-0003-3476-4749")),
   person("Fabian M.", "Arnold",
-    role = "ctb"),
+    email = ""),
   person("Cedric A.J.", "Hutter",
-    role = "ctb",
+    email = "",
     comment = c(ORCID = "0000-0002-8920-3343")),
   person("Damien", "Morger",
-    role = "ctb"),
+    email = ""),
   person("Lennart", "Opitz",
-    role = c("aut", "ctb"),
     email = "lopitz@fgcz.ethz.ch",
+    role = c("aut"),
     comment = c(ORCID = "0000-0001-7945-6737")),
   person("Lucy", "Poveda",
-    role = "ctb",
     email = "lucy.poveda@fgcz.uzh.ch",
+    role = "ctb",
     comment = c(ORCID = "0000-0002-5291-5582")),
   person("Hans-Anton", "Keserue",
-    role = "ctb"),
+    email = ""),
   person("Christian", "Panse",
     email = "cp@fgcz.ethz.ch",
     role = c("aut", "cre"),
     comment = c(ORCID = "0000-0003-1975-3064")),
   person("Bernd", "Roschitzki",
-    role = c("ctb"),
     email = "bernd.roschitzki@fgcz.uzh.ch",
+    role = c("aut"),
     comment = c(ORCID = "0000-0001-5756-9773")),
   person("Markus", "Seeger",
+    role = c("aut"),
     email = "m.seeger@imm.uzh.ch",
-    role = c("ctb"),
     comment = c(ORCID = "0000-0003-1761-8571")))
-Version: 0.99.90
+Version: 0.99.91
 Depends: R (>= 3.6),
-  AnnotationHub,
+  AnnotationHub (>= 2.15.3),
   ExperimentHub (>= 0.99.6),
-  Biostrings,
-  gplots,
+  Biostrings (>= 2.51.1),
+  gplots (>= 3.0.0),
   protViz (>= 0.4.0),
-  ShortRead 
+  ShortRead (>= 1.41.0)
 Imports: grDevices, graphics, stats, utils
 Description: Provides next-generation sequencing (NGS) and mass spectrometry
   (MS) sample data, code snippets and replication material used for developing
@@ -57,8 +56,15 @@ Description: Provides next-generation sequencing (NGS) and mass spectrometry
   Functional Genomics Center Zurich core facility.
 License: GPL
 VignetteBuilder: knitr
-Suggests: BiocStyle (>= 2.2.0), DT, ggplot2, knitr, rmarkdown, testthat, specL,
-  lattice, scales
+Suggests: BiocStyle (>= 2.2.0),
+  DT,
+  ggplot2,
+  knitr,
+  rmarkdown,
+  testthat,
+  specL,
+  lattice,
+  scales
 NeedsCompilation: no
 biocViews: ExperimentHub, ExperimentData, SequencingData, MassSpectrometryData,
   ReproducibleResearch
