@@ -1,5 +1,5 @@
 ---
-title: "Derive Peptide FlyCodes by Conducting Random Experiment"
+title: "Derive Peptide Flycodes by Conducting Random Experiment"
 author: 
 - name: Christian Panse
   affiliation: Functional Genomics Center Zurich
@@ -16,7 +16,7 @@ abstract: |
 package: NestLink
 date: '2015-04-01, 2015-04-28,  2015-04-29, 2015-04-30, 2015-10-24, 2018-12-17'
 vignette: |
-  %\VignetteIndexEntry{0. Derive Peptide FlyCodes by Conducting Random Experiment}
+  %\VignetteIndexEntry{0. Simulate flycode properties.}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 output:
@@ -224,8 +224,7 @@ h <- NestLink:::.plot_in_silico_LCMS_map(peptides.GPx10R, main='GPx10R')
 
 # Session info
 
-Here is the output of `sessionInfo()` on the system on which this
-document was compiled:
+Here is the output of the `sessionInfo()` commmand.
 
 ```{r sessionInfo, echo=FALSE}
 sessionInfo()

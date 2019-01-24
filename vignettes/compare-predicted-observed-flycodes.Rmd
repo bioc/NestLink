@@ -1,13 +1,13 @@
 ---
-title: "Compare Retention Time versus Sequence-specific
-  retention calculator  using (F255744)"
+title: "Compare observed Retention Time versus Sequence-specific calculated
+  retention time  using (F255744)"
 author: "Christian Panse"
 date: "2017-10-30"
 bibliography:
   - NestLink.bib
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{3. Compare Predicted and Measured FlyCodes hydrophobicity values using  F255744.}
+  %\VignetteIndexEntry{3. Compare Predicted and Observed flycodes hydrophobicity values using F255744.}
   %\VignetteEncoding{UTF-8}
 output:
   BiocStyle::html_document
@@ -19,7 +19,7 @@ To validate our Retention Time (RT) prediction in this vignette file, we compare
 `r CRANpkg("protViz")` package @protViz.
 
 The following code snippet performs the comparison on the F255744 data.
-The file contains amino acid sequences representing the designed FlyCodes.
+The file contains amino acid sequences representing the designed flycodes.
 
 ```{r echo=TRUE, message=FALSE}
 library(NestLink)
@@ -45,8 +45,8 @@ load(query(eh, c("NestLink", "F255744.RData"))[[1]])
 
 # Session info
 
-Here is the output of `sessionInfo()` on the system on which this
-document was compiled:
+Here is the output of the `sessionInfo()` 
+command.
 
 ```{r sessionInfo, echo=FALSE}
 sessionInfo()

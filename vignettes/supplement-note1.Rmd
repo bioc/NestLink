@@ -16,7 +16,7 @@ bibliography:
 abstract: |
   The following content was used to compile the *Supplementary Note 1* in @NestLink (under review  NMETH-A35040) to demonstrate the robustness of protein detection via flycodes.
 vignette: |
-  %\VignetteIndexEntry{4. Control experiment to assess robustness of protein detection via flycodes}
+  %\VignetteIndexEntry{4. Control experiment to assess robustness of protein detection via flycodes (Suppl. notes 1).}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -791,13 +791,11 @@ kable(FlycodeRelativeStatistics(P, mode = 'tech_smeg'))
 
 # Session info
 
-Here is the output of `sessionInfo()` on the system on which this
-document was compiled:
+Here is the output of the `sessionInfo()` command.
 
 ```{r sessionInfo, echo=FALSE}
 sessionInfo()
 ```
-
 
 #References
 

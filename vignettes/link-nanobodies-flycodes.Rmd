@@ -1,5 +1,5 @@
 ---
-title: "NGS filtering workflow to get high quality FlyCode and Nanobody sequences"
+title: "Link high quality flycodes and nanobody sequences by NGS filtering"
 author: 
 - name: Lennart Opitz
   affiliation: Functional Genomics Center Zurich
@@ -13,7 +13,7 @@ bibliography:
   - NestLink.bib
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{1. NGS filtering workflow to get high quality FlyCode and Nanobody sequences}
+  %\VignetteIndexEntry{1. Link high quality flycodes and nanobody sequences by NGS filtering.}
   %\VignetteEncoding{UTF-8}
 output: BiocStyle::html_document
 abstract: |
@@ -116,9 +116,16 @@ head(NB2FC, 2)
 head(nanobodyFlycodeLinking.as.fasta(NB2FC))
 ```
 
-To analyze the expressed Flycodes mass spectrometry is used.
-the FASTA file containing the Nanobody - Flycode linkage can be written to a file using, e.g., using `cat`.
+To analyze the expressed flycodes mass spectrometry is used.
+the FASTA file containing the nanobody - flycode linkage can be written to a file using, e.g., using `cat`.
 
 the exec directory provides alternative shell scripts using command line GNU tools and AWK.
+
+# Session info
+
+Here is the output of the `sessionInfo()` command.
+
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
 
 # References
