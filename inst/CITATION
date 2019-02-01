@@ -17,5 +17,5 @@ bibentry(bibtype = "Article",
                     person("Markus", "Seeger")),
 journal = "{bioRxiv}",
 year = "{2018}",
-doi = "{10.1101/287813}",
+doi = "10.1101/287813",
 publisher = "{Cold Spring Harbor Laboratory}")

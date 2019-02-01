@@ -55,9 +55,10 @@ scratchFolder <- tempdir()
 setwd(scratchFolder)
 ```
 
-# Load known NanoBodies (NB) for QC Checks
+# Load known nanobodies (NB) for QC Checks
 
-For data QC some known NB can be spiked in. Here we load the NB DNA sequences and translate them to the corresponding AA sequences.
+For data QC some known NB were spiked in.
+Here, we load the NB DNA sequences and translate them to the corresponding AA sequences.
 
 ```{r load.knownNB}
 # knownNB_File <- list.files(dataFolder,
@@ -117,9 +118,11 @@ head(nanobodyFlycodeLinking.as.fasta(NB2FC))
 ```
 
 To analyze the expressed flycodes mass spectrometry is used.
-the FASTA file containing the nanobody - flycode linkage can be written to a file using, e.g., using `cat`.
+the FASTA file containing the nanobody - flycode linkage can
+be written to a file using functions such as `cat`.
 
-the exec directory provides alternative shell scripts using command line GNU tools and AWK.
+The exec directory provides alternative shell scripts
+using command line GNU tools and AWK.
 
 # Session info
 

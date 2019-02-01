@@ -797,5 +797,5 @@ Here is the output of the `sessionInfo()` command.
 sessionInfo()
 ```
 
-#References
+# References
 
