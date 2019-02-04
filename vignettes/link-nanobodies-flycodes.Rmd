@@ -13,7 +13,7 @@ bibliography:
   - NestLink.bib
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{1. Link high quality flycodes and nanobody sequences by NGS filtering.}
+  %\VignetteIndexEntry{1. Link high quality flycode and nanobody sequences by NGS filtering.}
   %\VignetteEncoding{UTF-8}
 output: BiocStyle::html_document
 abstract: |

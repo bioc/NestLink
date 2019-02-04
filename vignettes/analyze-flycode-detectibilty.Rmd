@@ -16,7 +16,7 @@ abstract: |
   Briefly, it analyzes the amno acid frequencies of the in-silico composed and
   measured flycodes.
 vignette: |
-  %\VignetteIndexEntry{2. Analyze flycode detectibilty ESP and SSRC prediction.}
+  %\VignetteIndexEntry{2. Analyze flycode detectability using ESP and SSRC prediction}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
   
