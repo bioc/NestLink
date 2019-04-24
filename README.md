@@ -75,8 +75,10 @@ browseVignettes('NestLink')
 
 ## References 
 
-- [project p1875 at the Functional Genomics Center Zurich](https://fgcz-bfabric.uzh.ch/bfabric/userlab/show-project.html?id=1875)
+- [project p1875 at the Functional Genomics Center Zurich](https://fgcz-bfabric.uzh.ch/bfabric/userlab/show-project.html?id=1875).
 
-- [bioRxiv 2018/03/23/287813](https://www.biorxiv.org/content/early/2018/03/23/287813)
+- [PXD009301 accession number PRJEB25673](https://www.ebi.ac.uk/ena/data/view/PRJEB25673).
 
+- preprint [bioRxiv 2018/03/23/287813](https://www.biorxiv.org/content/early/2018/03/23/287813).
 
+- [DOI: 10.1038/s41592-019-0389-8](https://doi.org/10.1038/s41592-019-0389-8).
