@@ -1,5 +1,5 @@
 ---
-title: "Make NestLink data for ExperimentHub"
+title: "make-data 4 ExperimentHub"
 author:
 - name: Christian Panse
   affiliation: Functional Genomics Center Zurich, UZH|ETHZ
@@ -22,7 +22,7 @@ abstract: |
     The following content is descibed in more detail in @NestLink
     (under review  NMETH-A35040).
 vignette: |
-  %\VignetteIndexEntry{5. Make NestLink data for ExperimentHub.}
+  %\VignetteIndexEntry{5. make-data}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
