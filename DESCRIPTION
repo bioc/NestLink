@@ -42,7 +42,7 @@ Authors@R: c(person("Pascal", "Egloff",
     role = c("aut"),
     email = "m.seeger@imm.uzh.ch",
     comment = c(ORCID = "0000-0003-1761-8571")))
-Version: 1.13.0
+Version: 1.14.0
 Depends: R (>= 3.6),
   AnnotationHub (>= 2.15),
   ExperimentHub (>= 1.0),
